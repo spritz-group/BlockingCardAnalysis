@@ -37,3 +37,14 @@ Once the signal has been collected, the attacker just need to launch one of the 
 ### Averaging
 
 ## Countermeasure
+Two more jupiter notebooks are released to study the features that a noise emitted by a blocking card should have to be effective.
+They both apply the same strategy:
+1. Load the clean signal of the communication acquired using GNURadio.
+1. Add noise to the clean signal in order to simulate the behaviour of a blocking card.
+1. Analyze the performance of the demodulator in presence of different kinds of noise.
+
+More in detail:
+* `NoiseSimulationGaussian.ipynb` : Add gaussian noise at different percentage: 5%, 10%, 15%, 20%, 25%, 30%.
+* `NoiseSimulationFixedFrequencies.ipynb` Add noise at different fixed frequencies.
+
+

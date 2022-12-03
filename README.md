@@ -4,7 +4,7 @@ Blocking cards are an affordable device for protecting smart cards. These device
 Through this repo, we release the tools we developed for inspecting the spectrum emitted by blocking cards and setting up our attack against the MIFARE Classic and the MIFARE Ultralight.
 
 ## Prequisites
-In order to produce all results, a version of libnfc was used, in order to avoid segmentation faults: [https://github.com/blackwiz4rd/libnfc](https://github.com/blackwiz4rd/libnfc), refer to commit [#6de2cf2bb3d88fa70978363bde2eb7e490568f5d](https://github.com/blackwiz4rd/libnfc/commit/6de2cf2bb3d88fa70978363bde2eb7e490568f5d).
+In order to produce all results, a version of libnfc was used, in order to avoid segmentation faults: [https://github.com/blackwiz4rd/libnfc](https://github.com/blackwiz4rd/libnfc), refer to commit [#6de2cf2bb3d88fa70978363bde2eb7e490568f5d](https://github.com/blackwiz4rd/libnfc/commit/6de2cf2bb3d88fa70978363bde2eb7e490568f5d#r91875341).
 
 ## Frequency Spectrum Analysis
 In order to evaluate the performance of the blocking cards, their spectrums were analyzed without card/reader interaction, just by activating the magnetic field:

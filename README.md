@@ -6,6 +6,16 @@ Through this repo, we release the tools we developed for inspecting the spectrum
 ## Prequisites
 
 ## Frequency Spectrum Analysis
+In order to evaluate the performance of the blocking cards, their spectrums were analyzed without card/reader interaction, just by activating the magnetic field:
+* `Profiling.ipynb` : produces PDFs and PSDs of the blocking cards.
+* `magnetic_field_up.c` : activates the EM field of the reader for <numSeconds>.
+
+Usage:
+```
+magnetic_field_up <numSeconds>
+```
+
+### Msg Exchange
 
 ## Attacking MIFARE Classic
 The attack consists of two different phases: 
@@ -31,10 +41,22 @@ Once the signal has been collected, the attacker just need to launch one of the 
 ## Attacking MIFARE Ultralight
 
 ### Msg Exchange
+During the first phase, the attacker needs to capture the raw signals of the communication using ***GNURadio***. To let the reader send a specific sequence of commands to read data written on the MIFARE Ultralight, the attacker could rely on the ***apdu_get_data*** script, which can be used as follows:
+
+```
+./apdu_get_data <numRepetitions> <numIterations>
+```
+
+where:
+* `numRepetitions` : specifies the amount of repetitions for the experiment (e.g. the user can execute the experiment several times: the elecromagnetic field goes down from one experiment to the other).
+* `numIterations` : specify how many times the sequence of commands should be sent from the Reader to the MIFARE Ultralight (e.g. 80). During iterations the electromagnetic field will be up.
 
 ### Demodulation
+Once the signal has been collected, the attacker just need to launch one of the two following jupiter notebooks:
+* `MifareUltralightASR.ipynb` : calculates attack success rate metrics.
 
 ### Averaging
+For Mifare Ultralight analysis the averaging technique was used on multiple repetitions of the same signal portions for tag messages in order to evaluate if there are improvements in the decoding.
 
 ## Countermeasure
 Two more jupiter notebooks are released to study the features that a noise emitted by a blocking card should have to be effective.

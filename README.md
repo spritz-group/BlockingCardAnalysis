@@ -70,3 +70,57 @@ More in detail:
 * `NoiseSimulationFixedFrequencies.ipynb` Add noise at different fixed frequencies.
 
 
+# Images
+
+#### GNURadio Schema
+![My Image](imgs\GNURadioSchema.png)
+
+### Spectrogram
+
+#### BK1
+![SpectrogramBK1](imgs\Spectrogram\bk1-1.png)
+#### BK2
+![SpectrogramBK2](imgs\Spectrogram\bk2-1.png)
+#### BK3
+![SpectrogramBK3](imgs\Spectrogram\bk3-1.png)
+#### BK4
+![SpectrogramBK4](imgs\Spectrogram\bk4-1.png)
+#### BK5
+![SpectrogramBK5](imgs\Spectrogram\bk5-1.png)
+#### BK6
+![SpectrogramBK6](imgs\Spectrogram\bk6-1.png)
+#### BK7
+![SpectrogramBK7](imgs\Spectrogram\bk7-1.png)
+#### BK8
+![SpectrogramBK8](imgs\Spectrogram\bk8-1.png)
+#### BK9
+![SpectrogramBK9](imgs\Spectrogram\bk9-1.png)
+#### BK10
+![SpectrogramBK10](imgs\Spectrogram\bk10-1.png)
+#### BK11
+![SpectrogramBK11](imgs\Spectrogram\bk11-1.png)
+
+### PDF
+
+#### BK1
+![PdfBK1](imgs\Pdf\bk1-1.png)
+#### BK2
+![PdfBK2](imgs\Pdf\bk2-1.png)
+#### BK3
+![PdfBK3](imgs\Pdf\bk3-1.png)
+#### BK4
+![PdfBK4](imgs\Pdf\bk4-1.png)
+#### BK5
+![PdfBK5](imgs\Pdf\bk5-1.png)
+#### BK6
+![PdfBK6](imgs\Pdf\bk6-1.png)
+#### BK7
+![PdfBK7](imgs\Pdf\bk7-1.png)
+#### BK8
+![PdfBK8](imgs\Pdf\bk8-1.png)
+#### BK9
+![PdfBK9](imgs\Pdf\bk9-1.png)
+#### BK10
+![PdfBK10](imgs\Pdf\bk10-1.png)
+#### BK11
+![PdfBK11](imgs\Pdf\bk11-1.png)

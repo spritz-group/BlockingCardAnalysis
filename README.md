@@ -71,11 +71,11 @@ More in detail:
 
 
 ### Team
-Luca Attanasio (luca_attanasio@me.com)  
-Marco Alecci (marco.alecci@uni.lu)  
-Federico Turrin (turrin@math.unipd.it)
-Eleonora Losiouk (elosiouk@math.unipd.it)
-Alessandro Brighente (alessandro.brighente@unipd.it)
+Luca Attanasio (luca_attanasio@me.com)<br />
+Marco Alecci (marco.alecci@uni.lu)<br />
+Federico Turrin (turrin@math.unipd.it)<br />
+Eleonora Losiouk (elosiouk@math.unipd.it)<br />
+Alessandro Brighente (alessandro.brighente@unipd.it)<br />
 
 We are members of [SPRITZ Security and Privacy Research Group](https://spritz.math.unipd.it/) at the University of Padua, Italy.
 
